@@ -1,0 +1,40 @@
+//
+//  Production.xcconfig
+//  Unity-iPhone
+//
+//  Created by KKSOFT on 1/6/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+APP_BUNDLE_ID=com.kksoft.vn.ts3
+APP_DISPLAY_NAME=IOne
+
+APP_ENV=production
+
+APP_VERSION=1.0.0
+APP_BUILD=1
+
+// Unity's launcher reads _mh_execute_header from the main executable.
+ENABLE_DEBUG_DYLIB=NO
+
+// Google Sign-In platform configuration
+GIDClientID=511211441022-p18sv5i70b87g3440kr2ld0bujg385rk.apps.googleusercontent.com
+GIDReversedClientID=com.googleusercontent.apps.511211441022-p18sv5i70b87g3440kr2ld0bujg385rk
+
+// Facebook Login platform configuration. Meta App Events reuses these SDK credentials.
+FacebookAppID=1161544315137705
+FacebookClientToken=6a2631357b252d0ba6818832146a59dc
+FacebookURLScheme=fb1161544315137705
+
+FirebaseAppID=1:998015044363:ios:7e506151e1b2d079c3b00e
+
+AdjustId=6751104811
+AdjustToken=x04fe8zhx6gw
+
+AppFlyersId=6751104811
+AppFlyersDevKey=bXnAJLj5T8si5GhhSad9TY
+
+TiktokAppID=awo5h6p7hk2b8jbo
+TiktokAccessToken=ZF4JKMRoSZLJrihU5qTw9LcoR6AO1jKW

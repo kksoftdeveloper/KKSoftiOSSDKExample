@@ -1,0 +1,44 @@
+//
+//  Staging.xcconfig
+//  Unity-iPhone
+//
+//  Created by KKSOFT on 1/6/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+APP_BUNDLE_ID=com.kksoft.vn.ts3.staging
+APP_DISPLAY_NAME=IOne Staging
+
+APP_ENV=staging
+
+APP_VERSION=0.0.0
+APP_BUILD=1
+
+// Unity's launcher reads _mh_execute_header from the main executable.
+ENABLE_DEBUG_DYLIB=NO
+
+// Google Sign-In platform configuration
+GIDClientID=511211441022-p18sv5i70b87g3440kr2ld0bujg385rk.apps.googleusercontent.com
+GIDReversedClientID=com.googleusercontent.apps.511211441022-p18sv5i70b87g3440kr2ld0bujg385rk
+
+// Facebook Login platform configuration. Meta App Events reuses these SDK credentials.
+FacebookAppID=1161544315137705
+FacebookClientToken=6a2631357b252d0ba6818832146a59dc
+FacebookURLScheme=fb1161544315137705
+
+//FacebookAppID=1902708233752633
+//FacebookClientToken=1f948d7376d1d56a62d46f655dbec206
+//FacebookURLScheme=fb1902708233752633
+
+FirebaseAppID=1:998015044363:ios:c28439dcb5bf133ac3b00e
+
+AdjustId=6751104811
+AdjustToken=x04fe8zhx6gw
+
+AppFlyersId=6751104811
+AppFlyersDevKey=bXnAJLj5T8si5GhhSad9TY
+
+TiktokAppID=sbaw7ta5rd5dpy9qq0
+TiktokAccessToken=oHxdcS0nxUhPvPmzRyF65ZrWJ8ZNryE9
