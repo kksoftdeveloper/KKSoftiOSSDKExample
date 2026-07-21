@@ -106,7 +106,7 @@ import KKSoftiOSSDK
         initializeTrackingSDK()
 
         authManager?.initSDK(
-            packageName: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3.staging",
+            packageName: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3",
             appVersion: Bundle.main.infoDictionary? [ "CFBundleShortVersionString" ] as? String ?? "1.0.0",
             serverId: serverId
         )
@@ -195,7 +195,7 @@ import KKSoftiOSSDK
         
         let view = WelcomeView (
             authManager : authManager,
-            packageName : Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3.staging",
+            packageName : Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3",
             appVersionName : Bundle.main.infoDictionary? [ "CFBundleShortVersionString" ] as? String ?? "1.0.0",
             serverId: serverId,
             onSuccess: { data in
@@ -413,7 +413,7 @@ import KKSoftiOSSDK
                     self.showMenu(session: session)
                 })
             },
-            packageName: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3.staging",
+            packageName: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3",
             gameId: authManager.getGameId() ?? 1,
             deviceId: authManager.getDeviceID(),
             osVersion: "15.0",
@@ -958,7 +958,7 @@ import KKSoftiOSSDK
 //            )
 //            .enableTikTok(
 //                accessToken: Bundle.main.infoDictionary?[ "TiktokAccessToken" ] as? String ?? "",
-//                appID: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3.staging",
+//                appID: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3",
 //                tiktokAppID: Bundle.main.infoDictionary?[ "TiktokAppID" ] as? String ?? ""
 //            )
 //            .enableMeta(

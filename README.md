@@ -21,7 +21,7 @@
 2. Open the Xcode project:  
    `Unity-iPhone`
 3. In Xcode:  
-   - Go to **File > Packages > Update to Latest Packages Version**
+   - Go to **Unity-iPhone > PROJECT > Unity-iPhone > Packages > Update to Latest Packages Version**
 
 ---
 
@@ -49,7 +49,7 @@ In the Xcode project exported from Unity:
 https://github.com/kksoftdeveloper/KKSoftiOSSDK.git
 ```
 
-6. Select Commit -> input Commit code.
+6. Select Commit -> input Commit code: 027f7449e983116828826dbe69d2027383c8ff6d
 7. Add the `KKSoftiOSSDK` product to the `Unity-iPhone` target.
 8. Make sure both `UnityFramework` and `Unity-iPhone` use iOS deployment target 15.0+.
 

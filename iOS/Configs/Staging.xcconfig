@@ -8,7 +8,7 @@
 // Configuration settings file format documentation can be found at:
 // https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
 
-APP_BUNDLE_ID=com.kksoft.vn.ts3.staging
+APP_BUNDLE_ID=com.kksoft.vn.ts3
 APP_DISPLAY_NAME=IOne Staging
 
 APP_ENV=staging
