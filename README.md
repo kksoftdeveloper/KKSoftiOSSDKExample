@@ -12,20 +12,7 @@
 6. [Global shared auth-manager object](#global-shared-auth-manager-object)
 7. [Demo dialog view](#demo-dialog-view)
 
----
-
-## 1. Preparation
-
-1. Go to folder:  
-   `UnityExample/iOS`
-2. Open the Xcode project:  
-   `Unity-iPhone`
-3. In Xcode:  
-   - Go to **Unity-iPhone > PROJECT > Unity-iPhone > Packages > Update to Latest Packages Version**
-
----
-
-## 2. Add SDKs to Xcode Project
+## 1. Add SDKs to Xcode Project
 
 ### 1. Requirements
 
@@ -61,7 +48,7 @@ If the build cannot find the module, check that:
 
 ---
 
-## 3. Obj-C Bridge
+## 2. Obj-C Bridge
 
 - Bridge Implementation `AuthManagerObjCBridge.swift`
 
@@ -144,7 +131,7 @@ extension AuthSessionResponse {
 ```
 ---
 
-## 4. My app controller
+## 3. My app controller
 To make source code clearer, we ought to implement an extended class from UnityAppController, naming MyAppController. That Obj-C class has to have the delegate and startSDK method.
 
 This is an interface
@@ -286,7 +273,7 @@ The most essential thing is that we need to start SDK when app become active
 ```
 
 
-## 5. Declaration appcontroller as the implemented my app controller
+## 4. Declaration appcontroller as the implemented my app controller
 In Classes/main.m
 ```Objective-C
 const char* AppControllerClassName = "MyAppController";
@@ -300,7 +287,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
 });
 ```
 
-## 6. Global shared auth-manager object
+## 5. Global shared auth-manager object
 To apply auth-manager as a global object, we need to declare it as below implementation
 
 The declaration
@@ -333,5 +320,5 @@ AuthManagerObjCBridge *GlobalAuthManagerBridge(void) {
 }
 ```
 
-## 7. Demo dialog view
+## 6. Demo dialog view
 To illustrate all of SDK feature, we have MenuDialogViewController to show and help you to test all of features.
