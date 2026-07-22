@@ -24,9 +24,9 @@ GIDClientID=511211441022-p18sv5i70b87g3440kr2ld0bujg385rk.apps.googleusercontent
 GIDReversedClientID=com.googleusercontent.apps.511211441022-p18sv5i70b87g3440kr2ld0bujg385rk
 
 // Facebook Login platform configuration. Meta App Events reuses these SDK credentials.
-FacebookAppID=1161544315137705
-FacebookClientToken=6a2631357b252d0ba6818832146a59dc
-FacebookURLScheme=fb1161544315137705
+FacebookAppID=1373417500584289
+FacebookClientToken=61ea131dd68adfdf69f51d5e45c31dd2
+FacebookURLScheme=1373417500584289
 
 //FacebookAppID=1902708233752633
 //FacebookClientToken=1f948d7376d1d56a62d46f655dbec206

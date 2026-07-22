@@ -29,7 +29,6 @@
 		72CE37C02FDA675800E59A99 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = D9F857E12E0C7A1200C04AFC /* FacebookBasics */; };
 		72CE37C12FDA675800E59A99 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = D9F857E32E0C7A1200C04AFC /* FacebookCore */; };
 		72CE37C22FDA675800E59A99 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = D9F857E52E0C7A1200C04AFC /* FacebookLogin */; };
-		72D24B342FCFC3AB00482FD4 /* K-Utility-Staging.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 72D24B332FCFC3AB00482FD4 /* K-Utility-Staging.storekit */; };
 		72E2BC2E2FF4C644005FD47C /* KKSoftiOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 72E2BC2D2FF4C644005FD47C /* KKSoftiOSSDK */; };
 		72E2BC312FF4C915005FD47C /* KKSoftiOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 72E2BC302FF4C915005FD47C /* KKSoftiOSSDK */; };
 		763ED5D885EABF761B2FE262 /* LaunchScreen-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6444ABDD2799CC877EBAF7E /* LaunchScreen-iPad.storyboard */; };
@@ -260,7 +259,6 @@
 		72C74C632FCD227E0017115E /* GoogleService-Info-Staging.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Staging.plist"; sourceTree = "<group>"; };
 		72C74C672FCD255C0017115E /* ts3prodprovisioning.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = ts3prodprovisioning.mobileprovision; sourceTree = "<group>"; };
 		72C74C682FCD255C0017115E /* ts3stagingprovisioning.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = ts3stagingprovisioning.mobileprovision; sourceTree = "<group>"; };
-		72D24B332FCFC3AB00482FD4 /* K-Utility-Staging.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "K-Utility-Staging.storekit"; sourceTree = "<group>"; };
 		733D2142097013827A6FD7A8 /* Il2CppGenericClassTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Il2CppGenericClassTable.c; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c; sourceTree = SOURCE_ROOT; };
 		73E1EB45A942E11178F3915F /* UnityEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.cpp; sourceTree = SOURCE_ROOT; };
 		76E90196E5C6B8BA16A9EB4C /* System_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -848,7 +846,6 @@
 			isa = PBXGroup;
 			children = (
 				D9F857F42E0C7E6500C04AFC /* K-Utility.storekit */,
-				72D24B332FCFC3AB00482FD4 /* K-Utility-Staging.storekit */,
 				D9F857D92E0C73C700C04AFC /* AuthWrapper */,
 				8A5C148F174E662D0006EB36 /* PluginBase */,
 				8A3EDDC51615B7C1001839E9 /* UI */,
@@ -1136,7 +1133,6 @@
 				91C1EB5F348833EAD02A7E9A /* PrivacyInfo.xcprivacy in Resources */,
 				D9F857F52E0C7E6500C04AFC /* K-Utility.storekit in Resources */,
 				CE7EF22F2E41E158000C234A /* MenuDialogViewController.xib in Resources */,
-				72D24B342FCFC3AB00482FD4 /* K-Utility-Staging.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1377,7 +1373,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
@@ -1411,7 +1407,7 @@
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-dev-provisioning";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-prod-provisioning";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/AuthWrapper/Unity-iPhone-Bridging-Header.h";
@@ -1571,7 +1567,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
@@ -1605,7 +1601,7 @@
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-prod-provisioning";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-dev-provisioning";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/AuthWrapper/Unity-iPhone-Bridging-Header.h";
@@ -1835,7 +1831,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
@@ -1872,7 +1868,7 @@
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-prod-provisioning";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-dev-provisioning";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/AuthWrapper/Unity-iPhone-Bridging-Header.h";
@@ -2452,7 +2448,7 @@
 			repositoryURL = "https://github.com/kksoftdeveloper/KKSoftiOSSDK.git";
 			requirement = {
 				kind = revision;
-				revision = b40b2f1904260a878bb4e44268e5e2b09f2f34f0;
+				revision = 9aeb7b5fdbe117c94b9ea8d73910b874e39e92dc;
 			};
 		};
 		D9F857E02E0C7A1200C04AFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
