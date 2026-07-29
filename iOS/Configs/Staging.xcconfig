@@ -13,7 +13,7 @@ APP_DISPLAY_NAME=IOne Staging
 
 APP_ENV=staging
 
-APP_VERSION=0.0.0
+APP_VERSION=1.0.0
 APP_BUILD=1
 
 // Unity's launcher reads _mh_execute_header from the main executable.
@@ -26,7 +26,7 @@ GIDReversedClientID=com.googleusercontent.apps.511211441022-p18sv5i70b87g3440kr2
 // Facebook Login platform configuration. Meta App Events reuses these SDK credentials.
 FacebookAppID=1373417500584289
 FacebookClientToken=61ea131dd68adfdf69f51d5e45c31dd2
-FacebookURLScheme=1373417500584289
+FacebookURLScheme=fb1373417500584289
 
 //FacebookAppID=1902708233752633
 //FacebookClientToken=1f948d7376d1d56a62d46f655dbec206

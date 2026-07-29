@@ -21,17 +21,17 @@
       "localizations" : [
         {
           "description" : "+103 P",
-          "displayName" : "Gói 103 P",
+          "displayName" : "Gói 103 Điểm nuốt chửng",
           "locale" : "vi"
         },
         {
           "description" : "+103 P",
-          "displayName" : "Gói 103 P",
+          "displayName" : "103-Point Devour Package",
           "locale" : "en_US"
         }
       ],
-      "productID" : "com.kk.27kp",
-      "referenceName" : "Gói 103 P",
+      "productID" : "com.kk.27p",
+      "referenceName" : "Gói 103 Điểm nuốt chửng",
       "type" : "Consumable"
     },
     {
@@ -41,17 +41,17 @@
       "localizations" : [
         {
           "description" : "+446 P",
-          "displayName" : "Gói 446 P",
+          "displayName" : "446-Point Devour Package",
           "locale" : "en_US"
         },
         {
           "description" : "+446 P",
-          "displayName" : "Gói 446 P",
+          "displayName" : "Gói 446 Điểm nuốt chửng",
           "locale" : "vi"
         }
       ],
       "productID" : "com.kk.135kp",
-      "referenceName" : "Gói 446 P",
+      "referenceName" : "Gói 446 Điểm nuốt chửng",
       "type" : "Consumable"
     },
     {
@@ -61,17 +61,17 @@
       "localizations" : [
         {
           "description" : "+896 P",
-          "displayName" : "Gói 896 P",
+          "displayName" : "896-Point Devour Package",
           "locale" : "en_US"
         },
         {
           "description" : "+896 P",
-          "displayName" : "Gói 896 P",
+          "displayName" : "Gói 896 Điểm nuốt chửng",
           "locale" : "vi"
         }
       ],
       "productID" : "com.kk.270kp",
-      "referenceName" : "Gói 896 P",
+      "referenceName" : "Gói 896 Điểm nuốt chửng",
       "type" : "Consumable"
     },
     {
@@ -81,17 +81,17 @@
       "localizations" : [
         {
           "description" : "+2095 P",
-          "displayName" : "Gói 2095 P",
+          "displayName" : "2,095-Point Devour Package",
           "locale" : "en_US"
         },
         {
           "description" : "+2095 P",
-          "displayName" : "Gói 2095 P",
+          "displayName" : "Gói 2,095 Điểm nuốt chửng",
           "locale" : "vi"
         }
       ],
-      "productID" : "com.kk.540kp",
-      "referenceName" : "Gói 2095 P",
+      "productID" : "com.kk.54,0kp",
+      "referenceName" : "Gói 2095 Điểm nuốt chửng",
       "type" : "Consumable"
     },
     {
@@ -101,17 +101,17 @@
       "localizations" : [
         {
           "description" : "+2996 P",
-          "displayName" : "Gói 2996 P",
+          "displayName" : "2,996-Point Devour Package",
           "locale" : "en_US"
         },
         {
           "description" : "+ 2996 P",
-          "displayName" : "Gói 2996 P",
+          "displayName" : "Gói 2,996 Điểm nuốt chửng",
           "locale" : "vi"
         }
       ],
       "productID" : "com.kk.810kp",
-      "referenceName" : "Gói 2996 P",
+      "referenceName" : "Gói 2,996 Điểm nuốt chửng",
       "type" : "Consumable"
     },
     {
@@ -121,17 +121,17 @@
       "localizations" : [
         {
           "description" : "+ 5248 P",
-          "displayName" : "Gói 5,248 P",
+          "displayName" : "Gói 5,248 Điểm nuốt chửng",
           "locale" : "vi"
         },
         {
           "description" : "+5248 P",
-          "displayName" : "Gói 5,248 KNB",
+          "displayName" : "5,248-Point Devour Package",
           "locale" : "en_US"
         }
       ],
       "productID" : "com.kk.1080kp",
-      "referenceName" : "Gói 5248 P",
+      "referenceName" : "Gói 5,248 Điểm nuốt chửng",
       "type" : "Consumable"
     },
     {
@@ -141,17 +141,17 @@
       "localizations" : [
         {
           "description" : "+10498 P",
-          "displayName" : "Gói 10498 P",
+          "displayName" : "10498-Point Devour Package",
           "locale" : "en_US"
         },
         {
           "description" : "+ 10498 P",
-          "displayName" : "Gói 17878 P",
+          "displayName" : "Gói 17,878 Điểm nuốt chửng",
           "locale" : "vi"
         }
       ],
       "productID" : "com.kk.2700kp",
-      "referenceName" : "Gói 10498 P",
+      "referenceName" : "Gói 10,498 Điểm nuốt chửng",
       "type" : "Consumable"
     }
   ],

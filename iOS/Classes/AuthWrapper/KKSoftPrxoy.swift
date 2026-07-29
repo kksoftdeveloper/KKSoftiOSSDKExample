@@ -966,8 +966,8 @@ import KKSoftiOSSDK
 //                clientToken: Bundle.main.infoDictionary?[ "FacebookClientToken" ] as? String ?? ""
 //            )
 
-        let env = Environment.production
-//        let env = (Bundle.main.infoDictionary?[ "APP_ENV" ] as? String)?.lowercased() == "staging" ? Environment.staging : Environment.production
+//        let env = Environment.production
+        let env = (Bundle.main.infoDictionary?[ "APP_ENV" ] as? String)?.lowercased() == "staging" ? Environment.staging : Environment.production
 
         if Bundle.main.url(forResource: "GoogleService-Info-\(env == .production ? "Production" : "Staging")", withExtension: "plist") != nil {
             let firebaseAppID = Bundle.main.object(forInfoDictionaryKey: "FirebaseAppID") as? String
