@@ -58,14 +58,9 @@ import UIKit
                 
                 debugPrint("Client App: Login Success: \(map)")
                 if data.gameUUID == nil {
-                    self.showGameServerView(data: map)
+                    self.assignRandomGameServerIfNeeded(for: data)
                 } else {
-                    self.delegate?.didAuthenticated(data: map)
-                    if data.loginReminderResponse?.isGuestUser == true {
-                        self.startAutoLinkAccountLoop(
-                            timeToRemindInSeconds: (map["loginAfterSeconds"] as? Int) ?? 60,
-                            guestToken: data.accessToken) { result, error in };
-                    }
+                    self.notifyAuthenticated(with: map, session: data)
                 }
             },
             onRefreshedToken: { data in
@@ -118,19 +113,67 @@ import UIKit
                     }
                 },
                 receiveValue: { session in
-                    self.delegate?.didAuthenticated(data: session.asDictionary())
-                    if session.loginReminderResponse?.isGuestUser == true {
-                        self.startAutoLinkAccountLoop(
-                            timeToRemindInSeconds: (session.asDictionary()["loginAfterSeconds"] as? Int) ?? 60,
-                            guestToken: session.accessToken) { result, error in };
+                    if !session.accessToken.isEmpty, session.gameUUID == nil {
+                        self.assignRandomGameServerIfNeeded(for: session, completion: completion)
+                        return
                     }
                     
                     if !session.accessToken.isEmpty {
                         let dict = session.asDictionary()
+                        self.notifyAuthenticated(with: dict, session: session)
                         completion(dict, nil, nil)
                     } else {
                         completion(nil, "wellcome", nil)
                     }
+                }
+            )
+            .store(in: &cancellables)
+    }
+
+    private func notifyAuthenticated(with data: NSDictionary, session: AuthSessionResponse) {
+        delegate?.didAuthenticated(data: data)
+        if session.loginReminderResponse?.isGuestUser == true {
+            startAutoLinkAccountLoop(
+                timeToRemindInSeconds: (data["loginAfterSeconds"] as? Int) ?? 60,
+                guestToken: session.accessToken
+            ) { result, error in }
+        }
+    }
+
+    private func assignRandomGameServerIfNeeded(
+        for session: AuthSessionResponse,
+        completion: ((NSDictionary?, NSString?, NSError?) -> Void)? = nil
+    ) {
+        manager.getGameServerLists()
+            .tryMap { servers -> GameServerInfoResponse in
+                let onlineServers = servers.filter { $0.serverStatus == .online }
+                let selectableServers = onlineServers.isEmpty ? servers : onlineServers
+                guard let selectedServer = selectableServers.randomElement() else {
+                    throw AuthErrorResponse.appNotConfiguredGameServer()
+                }
+                return selectedServer
+            }
+            .flatMap { selectedServer in
+                self.manager.updateGameServer(selectedGameServer: selectedServer)
+                    .map { gameUUID in (selectedServer, gameUUID) }
+            }
+            .receive(on: DispatchQueue.main)
+            .sink(
+                receiveCompletion: { completionStatus in
+                    if case .failure(let error) = completionStatus {
+                        debugPrint("Client App: Auto assign game server failed: \(error)")
+                        self.delegate?.didAuthenticated(data: nil)
+                        completion?(nil, nil, error as NSError)
+                    }
+                },
+                receiveValue: { selectedServer, gameUUID in
+                    let dict = session.asDictionary(
+                        gameUUID: gameUUID,
+                        serverId: selectedServer.serverId
+                    )
+                    debugPrint("Client App: Auto assigned game server: \(dict)")
+                    self.notifyAuthenticated(with: dict, session: session)
+                    completion?(dict, nil, nil)
                 }
             )
             .store(in: &cancellables)
@@ -417,11 +460,11 @@ import UIKit
 }
 
 extension AuthSessionResponse {
-    func asDictionary() -> NSDictionary {
+    func asDictionary(gameUUID overrideGameUUID: String? = nil, serverId overrideServerId: Int? = nil) -> NSDictionary {
         var dict = [String: Any]()
         dict["accessToken"] = self.accessToken
-        dict["gameUID"] = self.gameUUID
-        dict["serverId"] = self.serverId
+        dict["gameUID"] = overrideGameUUID ?? self.gameUUID
+        dict["serverId"] = overrideServerId ?? self.serverId
         dict["refreshToken"] = self.refreshToken
         dict["isNewUser"] = self.isNewUser
         dict["isGuestUser"] = self.loginReminderResponse?.isGuestUser ?? false
