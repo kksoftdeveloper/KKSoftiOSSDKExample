@@ -1,0 +1,4 @@
+module FirebaseAnalyticsCoreWrapper {
+umbrella "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/firebase-ios-sdk/FirebaseAnalyticsCoreWrapper/include"
+export *
+}

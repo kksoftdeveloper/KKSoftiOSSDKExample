@@ -1,0 +1,4 @@
+module TikTokBusinessSDK {
+umbrella header "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/tiktok-business-ios-sdk/TikTokBusinessSDK/Public/TikTokBusinessSDK/TikTokBusinessSDK.h"
+export *
+}

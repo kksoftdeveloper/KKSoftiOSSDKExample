@@ -1,0 +1,37 @@
+#!/bin/sh
+if [ "$CONFIGURATION" = "Debug" ];
+then
+    IL2CPP_CONFIG="Debug"
+else
+    IL2CPP_CONFIG="Release"
+fi
+
+HOST_ARCH=$(uname -m)
+if [ "$HOST_ARCH" = "arm64" ];
+then
+    HOST_ARCH_BEE="arm64"
+else
+    HOST_ARCH_BEE="x64"
+fi
+
+if [ "$ARCHS" = "arm64" ];
+then
+    LIB_ARCH="arm64"
+elif [ "$ARCHS" = "x86_64" ];
+then
+   LIB_ARCH="x64"
+else
+   LIB_ARCH="$HOST_ARCH_BEE"
+fi
+
+echo "Lib arch: $LIB_ARCH"
+echo "Host arch: $HOST_ARCH"
+echo "Bee arch: $HOST_ARCH_BEE"
+
+IL2CPP_DIR="$PROJECT_DIR/Il2CppOutputProject/IL2CPP/build/deploy_$HOST_ARCH"
+IL2CPP="$IL2CPP_DIR/il2cpp"
+chmod +x "$IL2CPP"
+chmod +x "$IL2CPP_DIR/bee_backend/mac-$HOST_ARCH_BEE/bee_backend"
+
+"$IL2CPP" --compile-cpp --platform=iOS --baselib-directory="$PROJECT_DIR/Libraries" --additional-defines=IL2CPP_DEBUG=0 --incremental-g-c-time-slice=3 --dotnetprofile=unityaot-macos --profiler-report --print-command-line --external-lib-il2-cpp="$PROJECT_DIR/Libraries/libil2cpp.a" --generatedcppdir="Il2CppOutputProject/Source/il2cppOutput" --architecture="$LIB_ARCH" --outputpath="$CONFIGURATION_BUILD_DIR/libGameAssembly.a" --cachedirectory="$CONFIGURATION_TEMP_DIR/artifacts/$LIB_ARCH" --configuration="$IL2CPP_CONFIG" 
+

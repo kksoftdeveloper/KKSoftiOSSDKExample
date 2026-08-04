@@ -1,0 +1,4 @@
+module jsonlogic {
+header "jsonlogic-Swift.h"
+export *
+}

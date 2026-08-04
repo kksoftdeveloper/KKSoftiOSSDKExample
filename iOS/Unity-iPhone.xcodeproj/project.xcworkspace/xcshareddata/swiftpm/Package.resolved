@@ -168,7 +168,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kksoftdeveloper/KKSoftiOSSDK.git",
       "state" : {
-        "revision" : "9aeb7b5fdbe117c94b9ea8d73910b874e39e92dc"
+        "revision" : "be7a121f50cd4deb3fd40421269d592036a79934"
       }
     },
     {

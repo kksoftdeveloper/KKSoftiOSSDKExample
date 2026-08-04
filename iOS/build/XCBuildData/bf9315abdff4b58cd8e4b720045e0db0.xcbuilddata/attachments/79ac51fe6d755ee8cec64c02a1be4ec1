@@ -1,0 +1,4 @@
+module GoogleAdsOnDeviceConversionTarget {
+umbrella "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/google-ads-on-device-conversion-ios-sdk/GoogleAdsOnDeviceConversionWrapper/include"
+export *
+}

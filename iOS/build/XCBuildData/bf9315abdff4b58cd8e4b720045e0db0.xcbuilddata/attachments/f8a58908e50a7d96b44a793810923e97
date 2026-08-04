@@ -1,0 +1,4 @@
+module AdjustSdk {
+umbrella header "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/ios_sdk/Adjust/include/AdjustSdk/AdjustSdk.h"
+export *
+}

@@ -1,0 +1,4 @@
+module nanopb {
+umbrella "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/nanopb/spm_headers"
+export *
+}

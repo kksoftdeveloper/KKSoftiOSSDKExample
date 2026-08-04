@@ -1,0 +1,4 @@
+module KKSoftiOSSDK {
+header "KKSoftiOSSDK-Swift.h"
+export *
+}

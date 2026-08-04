@@ -1,0 +1,4 @@
+module GoogleUtilities_UserDefaults {
+umbrella "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/UserDefaults/Public"
+export *
+}

@@ -1,0 +1,4 @@
+module MixpanelSwiftCommon {
+header "MixpanelSwiftCommon-Swift.h"
+export *
+}

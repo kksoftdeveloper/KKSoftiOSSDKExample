@@ -1309,7 +1309,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
@@ -1346,7 +1346,7 @@
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-prod-provisioning";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-dev-provisioning";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/AuthWrapper/Unity-iPhone-Bridging-Header.h";
@@ -1373,7 +1373,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
@@ -1407,7 +1407,7 @@
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-prod-provisioning";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ts3-dev-provisioning";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/AuthWrapper/Unity-iPhone-Bridging-Header.h";
@@ -2448,7 +2448,7 @@
 			repositoryURL = "https://github.com/kksoftdeveloper/KKSoftiOSSDK.git";
 			requirement = {
 				kind = revision;
-				revision = 9aeb7b5fdbe117c94b9ea8d73910b874e39e92dc;
+				revision = be7a121f50cd4deb3fd40421269d592036a79934;
 			};
 		};
 		D9F857E02E0C7A1200C04AFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {

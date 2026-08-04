@@ -1,0 +1,79 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/UnityFramework-primary.dia",
+    "emit-module-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/UnityFramework-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/UnityFramework-primary-emit-module.dia",
+    "pch" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/UnityFramework-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/UnityFramework-primary.swiftdeps"
+  },
+  "/Users/kksoft/KKSoftiOSSDKExample/iOS/Classes/AuthWrapper/AuthManagerObjCBridge.swift" : {
+    "const-values" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge.d",
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge.dia",
+    "index-unit-output-path" : "/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge.o",
+    "llvm-bc" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge.bc",
+    "object" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge.o",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthManagerObjCBridge~partial.swiftmodule"
+  },
+  "/Users/kksoft/KKSoftiOSSDKExample/iOS/Classes/AuthWrapper/AuthSessionOutputBridge.swift" : {
+    "const-values" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge.d",
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge.dia",
+    "index-unit-output-path" : "/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge.o",
+    "llvm-bc" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge.bc",
+    "object" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge.o",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/AuthSessionOutputBridge~partial.swiftmodule"
+  },
+  "/Users/kksoft/KKSoftiOSSDKExample/iOS/Classes/AuthWrapper/FontLoaderObjCBridge.swift" : {
+    "const-values" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge.d",
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge.dia",
+    "index-unit-output-path" : "/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge.o",
+    "llvm-bc" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge.bc",
+    "object" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge.o",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/FontLoaderObjCBridge~partial.swiftmodule"
+  },
+  "/Users/kksoft/KKSoftiOSSDKExample/iOS/Classes/AuthWrapper/GameTrackingTestView.swift" : {
+    "const-values" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView.d",
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView.dia",
+    "index-unit-output-path" : "/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView.o",
+    "llvm-bc" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView.bc",
+    "object" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView.o",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/GameTrackingTestView~partial.swiftmodule"
+  },
+  "/Users/kksoft/KKSoftiOSSDKExample/iOS/Classes/AuthWrapper/KKSoftPrxoy.swift" : {
+    "const-values" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy.d",
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy.dia",
+    "index-unit-output-path" : "/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy.o",
+    "llvm-bc" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy.bc",
+    "object" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy.o",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KKSoftPrxoy~partial.swiftmodule"
+  },
+  "/Users/kksoft/KKSoftiOSSDKExample/iOS/Classes/AuthWrapper/KeychainManagerObjCBridge.swift" : {
+    "const-values" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge.d",
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge.dia",
+    "index-unit-output-path" : "/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge.o",
+    "llvm-bc" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge.bc",
+    "object" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge.o",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/KeychainManagerObjCBridge~partial.swiftmodule"
+  },
+  "/Users/kksoft/KKSoftiOSSDKExample/iOS/Classes/AuthWrapper/MenuView.swift" : {
+    "const-values" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView.d",
+    "diagnostics" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView.dia",
+    "index-unit-output-path" : "/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView.o",
+    "llvm-bc" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView.bc",
+    "object" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView.o",
+    "swift-dependencies" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/Objects-normal/x86_64/MenuView~partial.swiftmodule"
+  }
+}

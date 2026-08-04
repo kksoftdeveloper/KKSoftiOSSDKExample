@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/jsonlogic-primary.dia",
+    "emit-module-dependencies" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/jsonlogic-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/jsonlogic-primary-emit-module.dia",
+    "pch" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/jsonlogic-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/jsonlogic-primary.swiftdeps"
+  },
+  "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/Sources/jsonlogic/JsonLogic.swift" : {
+    "const-values" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic.d",
+    "diagnostics" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic.dia",
+    "index-unit-output-path" : "/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic.o",
+    "llvm-bc" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic.bc",
+    "object" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic.o",
+    "swift-dependencies" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/JsonLogic~partial.swiftmodule"
+  },
+  "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/Sources/jsonlogic/Parser.swift" : {
+    "const-values" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser.swiftconstvalues",
+    "dependencies" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser.d",
+    "diagnostics" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser.dia",
+    "index-unit-output-path" : "/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser.o",
+    "llvm-bc" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser.bc",
+    "object" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser.o",
+    "swift-dependencies" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser.swiftdeps",
+    "swiftmodule" : "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/json-logic-swift/build/jsonlogic.build/Debug-Staging-iphonesimulator/jsonlogic.build/Objects-normal/x86_64/Parser~partial.swiftmodule"
+  }
+}

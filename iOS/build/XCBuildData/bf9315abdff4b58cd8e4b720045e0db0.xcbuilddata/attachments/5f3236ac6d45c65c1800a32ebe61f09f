@@ -1,0 +1,4 @@
+module GoogleUtilities_NSData {
+umbrella "/Users/kksoft/Library/Developer/Xcode/DerivedData/Unity-iPhone-cpivzwpytstbgveephexwwsmbeqr/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/NSData+zlib/Public"
+export *
+}

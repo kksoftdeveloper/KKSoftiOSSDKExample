@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Debug-Staging-iphonesimulator/UnityFramework.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Debug-Staging-iphonesimulator/UnityFramework.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "UnityFramework-Swift.h",
+      "external-contents": "/Users/kksoft/KKSoftiOSSDKExample/iOS/build/Unity-iPhone.build/Debug-Staging-iphonesimulator/UnityFramework.build/unextended-interface-header.h",
+    }]
+  }]
+}
