@@ -948,23 +948,19 @@ import KKSoftiOSSDK
 
         // Initialize TrackingSDK with AppFlyers
         let builder = TrackingServiceProvider.Builder()
-//            .enableAppFlyers(
-//                appID: Bundle.main.infoDictionary?[ "AppFlyersId" ] as? String ?? ""
-//                devKey: Bundle.main.infoDictionary?[ "AppFlyersDevKey" ] as? String ?? ""
-//            )
-//            .enableAdjust(
-//                appID: Bundle.main.infoDictionary?[ "AdjustId" ] as? String ?? "",
-//                appToken: Bundle.main.infoDictionary?[ "AdjustToken" ] as? String ?? ""
-//            )
-//            .enableTikTok(
-//                accessToken: Bundle.main.infoDictionary?[ "TiktokAccessToken" ] as? String ?? "",
-//                appID: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3",
-//                tiktokAppID: Bundle.main.infoDictionary?[ "TiktokAppID" ] as? String ?? ""
-//            )
-//            .enableMeta(
-//                appID: Bundle.main.infoDictionary?[ "FacebookAppID" ] as? String ?? "",
-//                clientToken: Bundle.main.infoDictionary?[ "FacebookClientToken" ] as? String ?? ""
-//            )
+            .enableAdjust(
+                appID: Bundle.main.infoDictionary?[ "AdjustId" ] as? String ?? "",
+                appToken: Bundle.main.infoDictionary?[ "AdjustToken" ] as? String ?? ""
+            )
+            .enableTikTok(
+                accessToken: Bundle.main.infoDictionary?[ "TiktokAccessToken" ] as? String ?? "",
+                appID: Bundle.main.bundleIdentifier ?? "com.kksoft.vn.ts3",
+                tiktokAppID: Bundle.main.infoDictionary?[ "TiktokAppID" ] as? String ?? ""
+            )
+            .enableMeta(
+                appID: Bundle.main.infoDictionary?[ "FacebookAppID" ] as? String ?? "",
+                clientToken: Bundle.main.infoDictionary?[ "FacebookClientToken" ] as? String ?? ""
+            )
 
 //        let env = Environment.production
         let env = (Bundle.main.infoDictionary?[ "APP_ENV" ] as? String)?.lowercased() == "staging" ? Environment.staging : Environment.production
