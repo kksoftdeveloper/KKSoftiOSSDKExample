@@ -983,11 +983,11 @@ import KKSoftiOSSDK
 
         self.trackingManager = trackingService.trackingManager
         
-//        if let manager = trackingManager {
-//            AuthTrackingConfigurator.configure(with: manager)
-//            PaymentTrackingConfigurator.configure(with: manager)
-//            IngameEventTrackingConfigurator.configure(with: manager)
-//        }
+        if let manager = trackingManager {
+            AuthTrackingConfigurator.configure(with: manager)
+            PaymentTrackingConfigurator.configure(with: manager)
+            IngameEventTrackingConfigurator.configure(with: manager)
+        }
         NSLog("---- KKSOFT Proxy TrackingSDK Initialized")
     }
 
