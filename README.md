@@ -66,6 +66,7 @@ Only add `APP_ENV` if you explicitly need to override the SDK environment, for e
 
 or
 
+```xml
 <key>APP_ENV</key>
 <string>staging</string>
 ```
