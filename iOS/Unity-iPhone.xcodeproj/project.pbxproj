@@ -2448,7 +2448,7 @@
 			repositoryURL = "https://github.com/kksoftdeveloper/KKSoftiOSSDK.git";
 			requirement = {
 				kind = revision;
-				revision = 673f842acfcdaf594c5e1b6ba2b5aea946a1837c;
+				revision = eb9a2e062ba045d8b5971651a6773f735edd04ee;
 			};
 		};
 		D9F857E02E0C7A1200C04AFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
