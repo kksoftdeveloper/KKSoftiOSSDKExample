@@ -41,7 +41,7 @@ In the Xcode project exported from Unity:
 https://github.com/kksoftdeveloper/KKSoftiOSSDK.git
 ```
 
-6. Select Commit -> input Commit code: e3b983a8e80d7b4732bf99f7e17a80c8ef247ea7
+6. Select Commit -> input Commit code: 88e502a40b75879315441783d7aaf6e88a52b9e3
 7. Add the `KKSoftiOSSDK` product to the `Unity-iPhone` target.
 8. Make sure both `UnityFramework` and `Unity-iPhone` use iOS deployment target 15.0+.
 
