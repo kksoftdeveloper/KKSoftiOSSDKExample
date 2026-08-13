@@ -948,6 +948,10 @@ import KKSoftiOSSDK
 
         // Initialize TrackingSDK with AppFlyers
         let builder = TrackingServiceProvider.Builder()
+            .enableAppFlyers(
+                appID: Bundle.main.infoDictionary?[ "AppFlyersId" ] as? String ?? "",
+                devKey: Bundle.main.infoDictionary?[ "AppFlyersDevKey" ] as? String ?? ""
+            )
             .enableAdjust(
                 appID: Bundle.main.infoDictionary?[ "AdjustId" ] as? String ?? "",
                 appToken: Bundle.main.infoDictionary?[ "AdjustToken" ] as? String ?? ""

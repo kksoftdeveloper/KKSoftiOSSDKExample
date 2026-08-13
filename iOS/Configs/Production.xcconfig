@@ -14,7 +14,7 @@ APP_DISPLAY_NAME=IOne
 APP_ENV=production
 
 APP_VERSION=1.0.0
-APP_BUILD=1
+APP_BUILD=3
 
 // Unity's launcher reads _mh_execute_header from the main executable.
 ENABLE_DEBUG_DYLIB=NO
